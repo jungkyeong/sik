@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    height: 800px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.view{
+    height:600px;
+    width: 80%;
+    border: 2px solid skyblue; 
+}
+
+.myname{
+    font-size: 20px;
+    color: skyblue;
+    margin-left: 50px;
+}
+
+.qvalue input{
+
+    margin-top: 50px;
+    width: 100px;
+    padding: 8px 8px;
+    text-align: center;
+    font-size: 20px;
+    color: skyblue;
+    border: skyblue;
+    border-bottom: solid 2px;
+    
+}
+
+.qvalue input:not(.homerun){
+    margin-right: 20px;
+}
+
+.qview{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-right:45px;
+    padding: 8px 8px;
+    text-align: center;
+    font-size: 20px;
+    color: skyblue;
+    }
+
+    .qview span{
+        width: 116px;
+    }
+
+    .qview span:not(:last-child){
+        margin-right: 20px;
+    }
+
+.tasu{
+    margin-left: 100px;
+}
+
+.avalue{
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: skyblue;
+}
+
+.avalue span{
+    padding: 30px 50px;
+}
+
+.aview{
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: skyblue;
+    
+}
+
+.aview span{
+    padding: 30px 50px;
+}
+
+.run{
+    background-color: skyblue;
+    color: whitesmoke;
+    border: white;
+}
+
+.run:hover{
+    border: solid 2px skyblue;
+    cursor: pointer;
+}

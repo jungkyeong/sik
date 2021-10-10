@@ -1,0 +1,59 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="hit.css">
+    <title>세이버 메트릭스 측정</title>
+    </head>
+    <body>
+
+
+    <div class="view">
+        <form class="qvalue">
+            <div class="myname">
+            <input type="text"placeholder="이름">
+                <span>'s STAT'</span>
+            </div>
+
+                <div class="qview">
+                    <span>타수</span>
+                    <span>4사구</span>
+                    <span>희생플라이</span>
+                    <span>안타</span>
+                    <span>2루타</span>
+                    <span>3루타</span>
+                    <span>홈런</span>
+                </div>
+
+        <input type="text"  class="tasu" required maxlength="3" placeholder="타수">
+        <input type="text"  class="sagu" required maxlength="3" placeholder="4사구">
+        <input type="text"  class="heeple" required maxlength="3" placeholder="희생플라이">
+        <input type="text"  class="anta" required maxlength="3" placeholder="안타">
+        <input type="text"  class="eru" required maxlength="3" placeholder="2루타">
+        <input type="text"  class="samru" required maxlength="3" placeholder="3루타">
+        <input type="text"  class="homerun" required maxlength="3" placeholder="홈런">
+
+
+        <button class="run">RUN</button>
+    </form>
+<br><br>
+    <div class="aview">
+        <span>타율</span>
+        <span>출루율</span>
+        <span>장타율</span>
+        <span>OPS</span>
+    </div>
+
+        <div class="avalue">
+            <span class="taul"></span>
+            <span class="chulru"></span>
+            <span class="gangta"></span>
+            <span class="ops"></span>
+        </div>
+        </div>
+        <script src="hit.js"></script>
+        
+    </body>
+    </html>
